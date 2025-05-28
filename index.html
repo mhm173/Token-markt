@@ -1,31 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>توكني ماركت - تطبيقات الدردشة</title>
-  <link rel="stylesheet" href="assets/styles.css">
-</head>
+<html>
+<head><title>توكني ماركت</title></head>
 <body>
-  <header>
-    <h1>توكني ماركت - تطبيقات الدردشة</h1>
-  </header>
-  <main>
-    <div id="apps-container"></div>
-  </main>
-  <script src="data/apps.js"></script>
-  <script>
-    const container = document.getElementById("apps-container");
-    apps.forEach(app => {
-      const card = document.createElement("div");
-      card.className = "card";
-      card.innerHTML = `
-        <a href="pages/${app.id}.html">
-          <img src="assets/images/${app.logo}" alt="${app.name}">
-          <h3>${app.name}</h3>
-        </a>
-      `;
-      container.appendChild(card);
-    });
-  </script>
+<h1>مرحبًا بكم في توكني ماركت</h1>
+<div id='app-list'></div>
+<script src='main.js'></script>
 </body>
 </html>
