@@ -1,0 +1,15 @@
+
+[
+  {
+    "id": "honey-jar",
+    "name": "HONEY JAR",
+    "image": "/images/honey-jar.jpg",
+    "description": "تطبيق محادثة وتعارف عصري."
+  },
+  {
+    "id": "xena-live",
+    "name": "XENA LIVE",
+    "image": "/images/xena-live.jpg",
+    "description": "تطبيق للبث المباشر والتفاعل الاجتماعي."
+  }
+]
